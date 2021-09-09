@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import layoutStyles from "./Layout.module.css";
 
 const Layout = ({ title, descr, urlBg = "", colorBg = "" }) => {
-   console.log(urlBg);
    return (
       <section
          className={layoutStyles.root}
